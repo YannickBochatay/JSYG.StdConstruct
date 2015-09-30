@@ -4,7 +4,7 @@ if (typeof require!= "undefined") {
         paths: {
             "stdconstruct": '../JSYG.StdConstruct',
             "jquery":"../bower_components/jquery/dist/jquery",
-            "jsyg":"../bower_components/jsyg/jsyg",
+            "jsyg-wrapper":"../bower_components/jsyg-wrapper/JSYG-wrapper",
             "jsyg-events":"../bower_components/jsyg-events/JSYG.Events"
         },
         urlArgs: "bust=" + (+new Date())
