@@ -2,7 +2,7 @@ if (typeof require!= "undefined") {
     
     require.config({
         paths: {
-            "stdconstruct": '../JSYG.StdConstruct',
+            "jsyg-stdconstruct": '../JSYG.StdConstruct',
             "jquery":"../bower_components/jquery/dist/jquery",
             "jsyg-wrapper":"../bower_components/jsyg-wrapper/JSYG-wrapper",
             "jsyg-events":"../bower_components/jsyg-events/JSYG.Events"
@@ -13,7 +13,7 @@ if (typeof require!= "undefined") {
 
 (function(factory) {
     
-    if (typeof define == 'function' && define.amd) define(["stdconstruct"],factory);
+    if (typeof define == 'function' && define.amd) define(["jsyg-stdconstruct"],factory);
     else factory(StdConstruct);
     
 }(function(StdConstruct) {
