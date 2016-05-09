@@ -1,6 +1,6 @@
 {
   "name": "jsyg-stdconstruct",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Standard constructor for writing JSYG plugins",
   "main": "JSYG.StdConstruct.js",
   "directories": {

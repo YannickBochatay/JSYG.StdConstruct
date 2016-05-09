@@ -1,7 +1,7 @@
 (function(root,factory) {
      
     if (typeof module == "object" && typeof module.exports == "object") {
-       module.exports = factory( require("jquery","jsyg-events") );
+       module.exports = factory( require("jquery") , require("jsyg-events") );
     }
     else if (typeof define == 'function' && define.amd) {
       
