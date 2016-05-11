@@ -27,6 +27,6 @@
   "homepage": "https://github.com/YannickBochatay/JSYG.StdConstruct#readme",
   "dependencies": {
     "jquery": "^2.2.3",
-    "jsyg-events": "^0.2.4"
+    "jsyg-events": ""
   }
 }
