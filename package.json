@@ -1,6 +1,6 @@
 {
   "name": "jsyg-stdconstruct",
-  "version": "0.1.5",
+  "version": "1.0.0",
   "description": "Standard constructor for writing JSYG plugins",
   "main": "JSYG.StdConstruct.js",
   "directories": {
@@ -26,7 +26,11 @@
   },
   "homepage": "https://github.com/YannickBochatay/JSYG.StdConstruct#readme",
   "dependencies": {
-    "jquery": "^2.2.3",
-    "jsyg-events": ""
+    "jsyg-events": "^1.0.0"
+  },
+  "devDependencies": {
+    "jquery": "^3.3.1",
+    "qunit": "^2.6.0",
+    "requirejs": "^2.3.5"
   }
 }

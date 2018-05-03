@@ -10,27 +10,32 @@ if (typeof require!= "undefined") {
     });
 }
 
+QUnit.config.autostart = false;
+
 (function(factory) {
     
-    if (typeof define == 'function' && define.amd) define(["jsyg-stdconstruct"],factory);
+    if (typeof define == 'function' && define.amd) require(["jsyg-stdconstruct"],factory);
     else factory(StdConstruct);
     
 }(function(StdConstruct) {
 
+    QUnit.start()
+
+    const { module, test } = QUnit
+
     module("StdConstruct");
 
-    test("Gestion des fonction standard", function() {     
-        
+    test("Gestion des fonction standard", assert => {     
         
         var obj = new StdConstruct();
         
         obj.enable();
         
-        expect(2);
+        assert.expect(2);
         
-        equal(obj.enabled, true, "activation du plugin");
+        assert.equal(obj.enabled, true, "activation du plugin");
         
-        equal(typeof obj.on, "function", "héritage de Events");
+        assert.equal(typeof obj.on, "function", "héritage de Events");
     });
     
 }));
