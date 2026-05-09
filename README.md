@@ -1,6 +1,8 @@
 # JSYG.StdConstruct
 Standard constructor for writing [JSYG](https://github.com/YannickBochatay/JSYG) or plugins
 
+## ⚠️ Deprecated. Use [@jsyg/stdconstruct](https://github.com/YannickBochatay/jsyg-monorepo/tree/main/packages/stdconstruct) instead.
+
 ### Installation
 ```shell
 npm install jsyg-stdconstruct
